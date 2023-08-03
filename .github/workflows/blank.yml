@@ -1,0 +1,10 @@
+name: First workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: unbutu-latest
+    steps: 
+      - name: Print getting 
+        run: echo "Hello world!"
+      - name: Say good bye
+        run: echo "Bye"
